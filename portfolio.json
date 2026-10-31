@@ -5,7 +5,7 @@
   "cards": [
     {"week": 1, "title": "숫자 여행", "line": "공개 데이터로 숫자 감각을 시험하는 퀴즈. 나라별 공휴일과 외국인 유학생 주제를 직접 추가하고 공항 탑승권 디자인으로 바꿨다.",
      "judgment": "원본을 열어 보니 엘살바도르 공휴일 자료가 실제와 달라 계산에서 뺐고, 유학생 수는 웹페이지 요약(2021년 155,281명) 대신 원본 엑셀(152,281명)로 셌다. 요약된 숫자보다 원본을 먼저 확인한다.",
-     "ai": ["Claude Code", "v0", "Perplexity"], "url": "https://gam-test-roan.vercel.app/", "img": "img/w1.jpg"}
+     "ai": ["Claude Code", "v0", "Perplexity"], "url": "https://gam-test-roan.vercel.app/", "img": "img/quiz-v2.jpg"}
   ],
   "proposal": null
 }

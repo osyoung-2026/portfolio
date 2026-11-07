@@ -5,7 +5,10 @@
   "cards": [
     {"week": 1, "title": "숫자 여행", "line": "공개 데이터로 숫자 감각을 시험하는 퀴즈. 나라별 공휴일과 외국인 유학생 주제를 직접 추가하고 공항 탑승권 디자인으로 바꿨다.",
      "judgment": "원본을 열어 보니 엘살바도르 공휴일 자료가 실제와 달라 계산에서 뺐고, 유학생 수는 웹페이지 요약(2021년 155,281명) 대신 원본 엑셀(152,281명)로 셌다. 요약된 숫자보다 원본을 먼저 확인한다.",
-     "ai": ["Claude Code", "v0", "Perplexity"], "url": "https://gam-test-roan.vercel.app/", "img": "img/quiz-v2.jpg"}
+     "ai": ["Claude Code", "v0", "Perplexity"], "url": "https://gam-test-roan.vercel.app/", "img": "img/quiz-v2.jpg"},
+    {"week": 2, "title": "교환학생 파견 문의 분류기 — 빈 폴더에서", "line": "파견 문의 한 줄을 넣으면 칸 · 긴급도 · 이유가 나옵니다. 문장과 정답은 직접 만들었습니다",
+     "judgment": "안전긴급을 놓치는 것을 가장 나쁜 실수로 정했다. 규칙은 안전긴급 2건을 모두 놓쳤고 AI는 1건을 놓쳤다. 채점용 30개의 정답은 AI의 의도를 가린 채 내가 붙였고 7개가 갈렸다. AI는 칸을 28/30 맞혔지만 긴급도는 규칙보다 낮았다. \"막혀 있다\"는 내 기준이 두 가지로 읽혔기 때문이다.",
+     "ai": ["Claude Code", "Gemini"], "url": "https://my-classifier-tau.vercel.app", "img": ""}
   ],
   "proposal": null
 }
